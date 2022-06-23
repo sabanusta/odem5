@@ -1,0 +1,13 @@
+SELECT* FROM film 
+WHERE   film ismi LIKE '%n'
+order by  length
+
+SELECT* FROM film 
+WHERE   film ismi LIKE '%n'
+limit 5 
+order by length 
+
+SELECT* FROM customer 
+WHERE    last_name LIKE '%n'
+limit 5 
+order by store_id 1 
